@@ -1,0 +1,15 @@
+{
+  "name": "apiMocker-seed",
+  "version": "0.0.0",
+  "scripts": {
+    "apimocker": "apimocker -c ./apimocker/config.json"
+  },
+  "description":"This is a apiMocker seed project",
+  "author": "Han Solutions",
+  "license": "MIT",
+  "devDependencies": {
+    "apimocker": "^0.4.11"
+  },
+  "dependencies": {
+  }
+}

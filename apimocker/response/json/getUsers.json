@@ -1,0 +1,46 @@
+[
+  {
+    "id": "56f5f18977c83f68f54c1468",
+    "username": "zaomai1",
+    "password": "zaomai1",
+    "email": "zm1@gmail.com",
+    "systemInfo": {
+      "type": 2,
+      "status": 1,
+      "level": 0,
+      "createTime": 1457398925945,
+      "activeTime": 1457398926001,
+      "lastLogInTime": 1457398926001,
+      "lastPwModifiedTime": 1457398926001,
+      "loginTimes": 0
+    },
+    "userInfo": {
+      "logo": "response/images/4.jpg",
+      "nickname": "zaomai1",
+      "phones": null,
+      "address": null
+    }
+  },
+  {
+    "id": "56f5f18977c83f68f54c1469",
+    "username": "zaomai2",
+    "password": "zaomai2",
+    "email": "zm2@gmail.com",
+    "systemInfo": {
+      "type": 2,
+      "status": 1,
+      "level": 0,
+      "createTime": 1457398925945,
+      "activeTime": 1457398926001,
+      "lastLogInTime": 1457398926001,
+      "lastPwModifiedTime": 1457398926001,
+      "loginTimes": 0
+    },
+    "userInfo": {
+      "logo": "user/logo/default.icon",
+      "nickname": "zaomai2",
+      "phones": null,
+      "address": null
+    }
+  }
+]

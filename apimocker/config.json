@@ -1,0 +1,226 @@
+{
+  "note": "api Mokcer",
+  "mockDirectory": "./apimocker/response",
+  "quiet": false,
+  "port": "80",
+  "latency": 1,
+  "allowedDomains": [
+    "http://localhost:9000"
+  ],
+  "allowedHeaders": [
+    "Content-Type",
+    "Authorization"
+  ],
+
+  "webServices": {
+
+    "sessions": {
+      "verbs": [
+        "post"
+      ],
+      "responses": {
+        "post": {
+          "httpStatus": 201,
+          "mockFile": "json/postSessions.json"
+        }
+      }
+    },
+    "sessions/56de248e77c8ee60057ef1fb": {
+      "verbs": [
+        "delete"
+      ],
+      "responses": {
+        "delete": {
+          "httpStatus": 204
+        }
+      }
+    },
+    "users": {
+      "verbs": [
+        "post","get"
+      ],
+      "responses": {
+        "post": {
+          "httpStatus": 201,
+          "mockFile": "json/postUsers.json"
+        },
+        "get": {
+          "httpStatus": 200,
+          "mockFile": "json/getUsers.json"
+        }
+      }
+    },
+    "users/56de248e77c8ee60057ef1fb": {
+      "verbs": [
+        "get",
+        "put",
+        "delete"
+      ],
+      "responses": {
+        "get": {
+          "httpStatus": 200,
+          "mockFile": "json/getUser1.json"
+        },
+        "delete": {
+          "httpStatus": 204
+        },
+        "put": {
+          "httpStatus": 200,
+          "mockFile": "json/updateUser1.json"
+        }
+      }
+    },
+    "users/56de248e77c8ee60057ef1fb/images": {
+      "verbs": [
+        "post"
+      ],
+      "responses": {
+        "post": {
+          "httpStatus": 201,
+          "mockFile": "json/getUser1.json"
+        }
+      }
+    },
+    "users/56de248e77c8ee60057ef1fb/items": {
+      "verbs": [
+        "get"
+      ],
+      "responses": {
+        "get": {
+          "httpStatus": 200,
+          "mockFile": "json/getUserItemList.json"
+        }
+      }
+    },
+    "items": {
+      "verbs": [
+        "get"
+      ],
+      "responses": {
+        "get": {
+          "httpStatus": 200,
+          "mockFile": "json/getItemsList.json"
+        }
+      }
+    },
+    "items/89fhjkay23489hfipw1": {
+      "verbs": [
+        "get"
+      ],
+      "responses": {
+        "get": {
+          "httpStatus": 200,
+          "mockFile": "json/getItem1.json"
+        }
+      }
+    },
+    "items/89fhjkay23489hfipw2": {
+      "verbs": [
+        "get"
+      ],
+      "responses": {
+        "get": {
+          "httpStatus": 200,
+          "mockFile": "json/getItem2.json"
+        }
+      }
+    },
+    "items/89fhjkay23489hfipw3": {
+      "verbs": [
+        "get"
+      ],
+      "responses": {
+        "get": {
+          "httpStatus": 200,
+          "mockFile": "json/getItem3.json"
+        }
+      }
+    },
+    "user/logo/default.icon": {
+      "verbs": [
+        "get"
+      ],
+      "responses": {
+        "get": {
+          "httpStatus": 200,
+          "mockFile": "images/4.jpg"
+        }
+      }
+    },
+    "images/1.jpg": {
+      "verbs": [
+        "get"
+      ],
+      "responses": {
+        "get": {
+          "httpStatus": 200,
+          "mockFile": "images/1.jpg"
+        }
+      }
+    },
+    "images/2.jpg": {
+      "verbs": [
+        "get"
+      ],
+      "responses": {
+        "get": {
+          "httpStatus": 200,
+          "mockFile": "images/2.jpg"
+        }
+      }
+    },
+    "images/3.jpg": {
+      "verbs": [
+        "get"
+      ],
+      "responses": {
+        "get": {
+          "httpStatus": 200,
+          "mockFile": "images/3.jpg"
+        }
+      }
+    },
+    "images/4.jpg": {
+      "verbs": [
+        "get"
+      ],
+      "responses": {
+        "get": {
+          "httpStatus": 200,
+          "mockFile": "images/4.jpg"
+        }
+      }
+    },
+    "orders": {
+      "verbs": [
+        "post"
+      ],
+      "responses": {
+        "post": {
+          "httpStatus": 201,
+          "mockFile": "postOrder.json"
+        }
+      }
+    },
+    "orders/575c5d4f77c8f16f8bc7b1d2": {
+      "verbs": [
+        "get"
+      ],
+      "responses": {
+        "get": {
+          "httpStatus": 200,
+          "mockFile": "getOrder1.json"
+        }
+      }
+    },
+    "language.json": {
+      "mockFile": "translate.json",
+      "verbs": [
+        "get"
+      ],
+      "switch": [
+        "lang"
+      ]
+    }
+  }
+}

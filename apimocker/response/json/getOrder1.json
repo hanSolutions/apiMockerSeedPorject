@@ -1,0 +1,71 @@
+{
+  "id": "575c5d4f77c8f16f8bc7b1d2",
+  "userId": "575c5d4f77c8f16f8bc7b1d3",
+  "items": [
+    {
+      "key": {
+        "id": "1",
+        "icons": [
+          "images/1.jpg",
+          "images/2.jpg"
+        ],
+        "name": "Orange",
+        "versionId": "124324sadfasdf",
+        "rate": 3,
+        "cost": 9,
+        "categories": [
+          "Fruit"
+        ],
+        "tags": [
+          "fruit",
+          "eatable"
+        ],
+        "promotionPrice": 11,
+        "originalPrice": 12,
+        "description": "Apple trees are large if grown from seed, but small if grafted onto roots (rootstock). There are more than 7,500 known cultivars of apples, resulting in a range of desired characteristics.",
+        "inventory": 100
+      },
+      "value": 3
+    },
+    {
+      "key": {
+        "id": "89fhjkay23489quxia",
+        "icons": [
+          "images/3.jpg",
+          "images/4.jpg"
+        ],
+        "name": "Apple",
+        "versionId": "124324sadfasdf",
+        "rate": 5,
+        "cost": 10,
+        "categories": [
+          "Fruit"
+        ],
+        "tags": [
+          "fruit",
+          "eatable"
+        ],
+        "promotionPrice": 11,
+        "originalPrice": 12,
+        "description": "Apple trees are large if grown from seed, but small if grafted onto roots (rootstock). There are more than 7,500 known cultivars of apples, resulting in a range of desired characteristics.",
+        "inventory": 100
+      },
+      "value": 5
+    }
+  ],
+  "orderStatusIds": [
+    "575c5d4f77c8f16f8bc70001",
+    "575c5d4f77c8f16f8bc70002",
+    "575c5d4f77c8f16f8bc70003",
+    "575c5d4f77c8f16f8bc70004",
+  ],
+  "address": {
+    "address": "1 Green Meadows Circle",
+    "city": "Toronto",
+    "province": "Ontario",
+    "country": "Canada",
+    "pcode": "M2J5G6"
+  },
+  "contactInfo": null,
+  "payment": null
+}

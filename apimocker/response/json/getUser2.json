@@ -1,0 +1,28 @@
+{
+  "id": "572e3f5a8d6a75911d27b686",
+  "username": "zaomai2",
+  "password": "zaomai2",
+  "email": "zm2@gmail.com",
+  "systemInfo": {
+    "role": "USER",
+    "status": 1,
+    "level": 0,
+    "createTime": 1462648666342,
+    "activeTime": 1462648666381,
+    "lastLogInTime": 1462648666381,
+    "lastPwModifiedTime": 1462648666381,
+    "loginTimes": 0
+  },
+  "userInfo": {
+    "logo": "2.jpg",
+    "nickname": "zaomai2",
+    "phones": null,
+    "address": {
+      "address": "2 Green Meadows Circle",
+      "city": "Toronto",
+      "province": "Ontario",
+      "country": "Canada",
+      "pcode": "M2J5G6"
+    }
+  }
+}

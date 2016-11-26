@@ -1,0 +1,22 @@
+{
+  "id": "56de248e77c8ee60057ef1fb",
+  "username": "zaomai1",
+  "password": "passw0rd",
+  "email": "zm@gmail.com",
+  "systemInfo": {
+    "role": "USER",
+    "status": 1,
+    "level": 0,
+    "createTime": 1457398925945,
+    "activeTime": 1457398926001,
+    "lastLogInTime": 1457398926001,
+    "lastPwModifiedTime": 1457398926001,
+    "loginTimes": 7
+  },
+  "userInfo": {
+    "logo": "user/logo/default.icon",
+    "nickname": "zaomainick",
+    "phones": "123-456-7890",
+    "address": "test address"
+  }
+}
